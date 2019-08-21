@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 import './ciudades.css'
 import { Link } from 'react-router-dom'
+
 export default class Ciudades extends Component {
     render() {
         return (
             <div className="mt-4">
               <div>
-                <div className="Card">
+                <div className="Card-one">
                   <div className="title-card-one">
                     <h3> ¿En dónde te gustaría comprar? </h3>
                   </div>
