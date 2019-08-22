@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import './tipoPropiedad.css'
 
 export default class TipoPropiedad extends Component {
     render() {
@@ -13,7 +14,11 @@ export default class TipoPropiedad extends Component {
                   </div>
                   
                   <form>
-                      
+                  <div className="container-categoria">
+                    <div className="items"></div>
+                    <div className="items"></div>
+                    <div className="items"></div>
+                  </div>
                       
                     <br /> <br/>
                     <Link to="/ciudad">

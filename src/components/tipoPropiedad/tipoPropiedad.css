@@ -6,3 +6,57 @@
     margin: auto;
     margin-bottom: 20px;
 }
+
+.tipo-icon {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    /* margin: auto; */
+    background-color: white;
+    border: 2px solid #F7941D;
+    cursor: pointer;
+}
+
+.container-categoria {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  height: 100%;
+  border: royalblue 2px solid;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.items {
+
+ border: green 1px solid;
+ border-radius: 50%;
+ width: 20%;
+  height: 90px;
+}
+
+
+
+
+/* ------ MediaQuerys! ----- */
+
+/* Esto se lee: 
+    si [ancho del dispositivo] es
+    menor o igual a ..
+*/
+@media (max-width: 415px) {
+  
+.container-categoria {
+
+    flex-flow: column wrap;
+  width: 100%;
+height: 115%;    
+}
+
+.items {
+
+    border: rgb(38, 0, 255) 1px solid;
+    width: 27%;
+     height: 92px;
+   }
+}
